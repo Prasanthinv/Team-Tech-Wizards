@@ -74,3 +74,55 @@
       text-align: center;
       padding: 30px 10px;
     }
+
+
+
+
+    .reviews {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+}
+
+.review-card {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.stars {
+  color: #f59e0b;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Success Section */
+.success-stories {
+  background-color: #f0fdf4;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.success-stories h2 {
+  color: #047857;
+  margin-bottom: 1rem;
+}
+
+.success-stories ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  color: #374151;
+  margin-top: 1rem;
+}
+
+.success-stories ul li {
+  margin-bottom: 0.6rem;
+}
